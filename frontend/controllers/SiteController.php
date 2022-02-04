@@ -21,6 +21,18 @@ use frontend\models\ContactForm;
  */
 class SiteController extends Controller
 {
+
+//    public function actionCreateAdmin()
+//    {
+//        $user = new \common\models\user();
+//        $user->username = 'admin';
+//        $user->email = 'admin@example.com';
+//        $user->status = \commom\models\user::STATUS_ACTIVE;
+//        $user->setPassword('admin');
+//        $user->generateAuthKey();
+//        $user->save();
+//    }
+
     /**
      * {@inheritdoc}
      */
